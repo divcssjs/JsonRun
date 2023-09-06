@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  box-sizing: border-box;
+  font-weight: 600;
+}
+
+.head {
+  display: flex;
+  border-bottom: 2px solid;
+
+  .year {
+    width: 200px;
+    border-left: 2px solid;
+    text-align: center;
+    font-size: 22px;
+  }
+}
+
+.hang {
+  display: flex;
+  border-bottom: 2px solid;
+
+  .name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border-left: 2px solid;
+    padding: 5px;
+  }
+}
