@@ -6,6 +6,50 @@
   font-weight: 600;
 }
 
+th,
+td {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #999;
+}
+
+.shen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+
+  h1 {
+    font-size: 20px;
+    color: rgb(44, 132, 241);
+  }
+
+  h3 {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .flex {
+    display: flex;
+
+    > div:first-child {
+      margin-right: 50px;
+    }
+
+    p {
+      margin-top: 10px;
+    }
+  }
+}
+
+table {
+  margin: 10px;
+  border-collapse: collapse;
+}
+
 .head {
   display: flex;
   border-bottom: 2px solid;
@@ -19,25 +63,5 @@
     &:first-child {
       width: 50px;
     }
-  }
-}
-
-.hang {
-  display: flex;
-  border-bottom: 2px solid;
-
-  .name {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-  }
-
-  .list {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    border-left: 2px solid;
-    padding: 5px;
   }
 }
